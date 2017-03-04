@@ -14,7 +14,7 @@ import bs4
 
 class Client(object):
 
-     """Web Client, for www.packtpub.com
+    """Web Client, for www.packtpub.com
     Downloads www.packtpub.com/packt/offers/free-learning page to parse
     and get the title of the free book of the day"""
 

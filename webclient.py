@@ -24,7 +24,7 @@ class Client(object):
     def get_web_page(self, url):
 
         """
-        Retrieves an HTML URL returns, HTML
+        Retrieves an HTML URL returns HTML
         """
         wp = urllib2.urlopen(url)
         html = wp.read()
